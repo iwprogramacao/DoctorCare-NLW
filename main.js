@@ -1,8 +1,24 @@
+window.addEventListener('scroll', onScroll)
+
+onScroll()
 function onScroll() {
-  if (scrollY === 0) {
-    navigation.classList.remove('scroll')
-  } else {
+  showNavOnScroll()
+  backToTopButtonOnScroll()
+}
+
+function showNavOnScroll() {
+  if (scrollY > 0) {
     navigation.classList.add('scroll')
+  } else {
+    navigation.classList.remove('scroll')
+  }
+}
+
+function backToTopButtonOnScroll() {
+  if (scrollY > 550) {
+    backToTopButton.classList.add('show')
+  } else {
+    backToTopButton.classList.remove('show')
   }
 }
 
@@ -13,6 +29,7 @@ function openMenu() {
 function closeMenu() {
   document.body.classList.remove('menu-expanded')
 }
+
 
 ScrollReveal({
   origin: 'top',
@@ -27,4 +44,5 @@ ScrollReveal({
 #services .card,
 #about,
 #about header,
-#about .content`)
+#about .content,
+`)
