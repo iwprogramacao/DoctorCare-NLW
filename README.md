@@ -7,7 +7,7 @@
 - HTML <br>
 - CSS <br>
 - JavaScript <br>
-<br><br>
+<br>
 A trilha Origin traz um projeto para ser desenvolvido com pessoas que estão entrando no mundo da programação
 tornando o conhecimento de programação mais acessível, porém mantendo um padrão alto de qualidade. <br>
 Esse projeto foi pensado e desenvolvido para que possa se adaptar para qualquer estilo de página, fazendo pequenas alterações, tornando-o útil para diversos públicos.
